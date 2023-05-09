@@ -38,7 +38,7 @@ public class Exercises {
         System.out.println(ourSet);
 
         // Remove the element '1'
-        // Your code
+
         ourSet.remove(1);
 
         System.out.println(ourSet);
@@ -74,7 +74,7 @@ public class Exercises {
 
         fruitsSet.addAll(fruitsList);
 
-        //2b. What will this output? [Stamperà tutti gli elementi della prima lista, unendo tramite il metodo.addAll gli elementi della seconda lista]
+        //2b. What will this output? [Stamperà tutti gli elementi della prima lista sempre non ordinati, aggiungendo tramite il metodo.addAll gli elementi della seconda lista]
         System.out.println(fruitsSet);
     }
 
@@ -90,7 +90,7 @@ public class Exercises {
 
         for (Integer number : numbers) {
            if (number >= max + 1){
-               max = number;    // faccio combaciare il valore massimo con il numero se
+               max = number;
            }
            if (number <= min - 1){
                min = number;
@@ -108,7 +108,11 @@ public class Exercises {
         Set<Integer> setB = Set.of(5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
         Set<Integer> itemsContainedInBothSets = new HashSet<>();
 
-        // Your code
+        for (int number : setA){
+            if (setB.contains(number)){
+                itemsContainedInBothSets.add(number);
+            }
+        }
 
         if (!itemsContainedInBothSets.equals(Set.of(5, 6, 7, 8, 9, 10))) {
             System.out.println("3b. Incorrect number of items in itemsContainedInBothSets");
@@ -128,7 +132,14 @@ public class Exercises {
         // 4a. Find the min value in the TreeSet with as few loops as possible,
         //     you can use `break;` to exit the loop once you've found it!
         int min = Integer.MAX_VALUE;
-        // Your code
+
+        for (int number : orderedNumbers) {
+            if (number < min) {
+                min = number;
+                break;
+            }
+        }
+        System.out.println(min);
 
         if (min != 1) {
             System.out.println("4a. Incorrect min value");
