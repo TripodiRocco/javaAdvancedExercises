@@ -17,9 +17,9 @@ _ = TO DO
 **X**   Esercizio 4     *(Reading and writing to a file)*
 **X**   Esercizio 5     *(Handling Exceptions)*
 **_**   Esercizio 6     *(Enums)*
-**_**   Esercizio 7     *(Junit)*
-**_**   Esercizio 8     *(Inheritance)*
-**_**   Esercizio 9     *(Abstract classes, interfaces)*
+**^**   Esercizio 7     *(Junit)*
+**^**   Esercizio 8     *(Inheritance)*
+**^**   Esercizio 9     *(Abstract classes, interfaces)*
 **_**   Esercizio 10    *(Object.class, Method overriding, equals, toString)*
 **_**   Esercizio 11    *(Records, ternary operator, BigInteger)*
 **_**   Esercizio 12    *(Java Streams)*
