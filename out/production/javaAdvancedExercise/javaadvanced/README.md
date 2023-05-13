@@ -11,11 +11,11 @@ _ = TO DO
 
 ### JAVA ADVANCED:
 
-**<pre>^**   Esercizio 1     *(Sets)*
-**^**   Esercizio 2     *(Maps)*
-**^**   Esercizio 3     *(Collection)*
-**_**   Esercizio 4     *(Reading and writing to a file)*
-**_**   Esercizio 5     *(Handling Exceptions)*
+**<pre>X**   Esercizio 1     *(Sets)*
+**X**   Esercizio 2     *(Maps)*
+**X**   Esercizio 3     *(Collection)*
+**X**   Esercizio 4     *(Reading and writing to a file)*
+**X**   Esercizio 5     *(Handling Exceptions)*
 **_**   Esercizio 6     *(Enums)*
 **_**   Esercizio 7     *(Junit)*
 **_**   Esercizio 8     *(Inheritance)*
