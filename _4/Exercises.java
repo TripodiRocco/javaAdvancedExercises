@@ -43,8 +43,6 @@ public class Exercises {
             exception.printStackTrace();
             System.exit(0);
         }
-
-        // il file.txt si trova all'esterno dei packages
     }
 
     /**
