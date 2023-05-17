@@ -21,6 +21,6 @@ _ = TO DO
 **^**   Esercizio 8     *(Inheritance)*
 **^**   Esercizio 9     *(Abstract classes, interfaces)*
 **_**   Esercizio 10    *(Object.class, Method overriding, equals, toString)*
-**_**   Esercizio 11    *(Records, ternary operator, BigInteger)*
+**X**   Esercizio 11    *(Records, ternary operator, BigInteger)*
 **X**   Esercizio 12    *(Java Streams)*
-**_**   Esercizio 13    *(Advanced IDE features, Debugger)*
+**X**   Esercizio 13    *(Advanced IDE features, Debugger)*
