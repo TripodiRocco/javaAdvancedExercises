@@ -1,7 +1,5 @@
 package javaadvanced._4;
 
-import java.io.File;
-import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -117,7 +115,7 @@ public class Exercises {
 
         try {
 
-            Files.createDirectory(myDirectoryPath);     // <-- la cartella mydirectory fa parte dell'esercizio 4 e si trova all'esterno dei packages
+            Files.createDirectory(myDirectoryPath);     // <-- Il file scritto si trova nel packages mydirectory che fa parte dell'esercizio sui files
 
             Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
         } catch (Exception exception) {
