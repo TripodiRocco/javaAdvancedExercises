@@ -16,11 +16,11 @@ _ = TO DO
 **X**   Esercizio 3     *(Collection)*
 **X**   Esercizio 4     *(Reading and writing to a file)*
 **X**   Esercizio 5     *(Handling Exceptions)*
-**_**   Esercizio 6     *(Enums)*
-**^**   Esercizio 7     *(Junit)*
+**X**   Esercizio 6     *(Enums)*
+**X**   Esercizio 7     *(Junit)*
 **^**   Esercizio 8     *(Inheritance)*
 **^**   Esercizio 9     *(Abstract classes, interfaces)*
-**_**   Esercizio 10    *(Object.class, Method overriding, equals, toString)*
+**X**   Esercizio 10    *(Object.class, Method overriding, equals, toString)*
 **X**   Esercizio 11    *(Records, ternary operator, BigInteger)*
 **X**   Esercizio 12    *(Java Streams)*
 **X**   Esercizio 13    *(Advanced IDE features, Debugger)*
