@@ -1,8 +1,13 @@
 package javaadvanced._9;
 
 abstract class Shape {
-     double height;
-     double width;
+     protected double height;
+     protected double width;
+
+    public Shape(double height, double width) {
+        this.height = height;
+        this.width = width;
+    }
 
     public double getHeight() {
         return height;

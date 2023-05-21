@@ -1,10 +1,11 @@
 package javaadvanced._9;
 
 public class Rectangle extends Shape {
-    public Rectangle(double a, double b) {
-        this.height = a;
-        this.width = b;
+
+    public Rectangle(double height, double width) {
+        super(height, width);
     }
+
 
     public double calculateArea(){
         double areaFigureGeometriche = getHeight() * getWidth();

@@ -23,7 +23,7 @@ public class Exercises {
         System.out.println("\nExercise 1: ");
 
         Rectangle rettangolo = new Rectangle(4, 9);
-        Circle cerchio = new Circle(10);
+        Circle cerchio = new Circle(10,10);
 
         System.out.println(rettangolo.calculateArea());
         System.out.println(cerchio.calculateArea());

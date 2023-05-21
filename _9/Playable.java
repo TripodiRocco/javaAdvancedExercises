@@ -1,5 +1,5 @@
 package javaadvanced._9;
 
 public interface Playable {
-    String play();
+    abstract String play();
 }
