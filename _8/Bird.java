@@ -22,7 +22,7 @@ public class Bird extends Animal {
     }
 
     public double flySpeedMetersPerSecond(){
-        double birdWingSpan = getWingSpan() * 2;
+        double birdWingSpan = getWingSpan() * 4;
         return birdWingSpan;
     }
 

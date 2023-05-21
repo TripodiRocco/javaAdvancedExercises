@@ -2,11 +2,7 @@ package javaadvanced._8;
 
 public class Dog extends Animal {
 
-    String breed;
-
-    public Dog(double height, double weight) {
-        super(height, weight);
-    }
+    private String breed;
 
     public Dog(double height, double weight, String breed) {
         super(height, weight);
@@ -21,7 +17,7 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
-    public Double runSpeedMetersPerSecond(){
+    public double runSpeedMetersPerSecond(){
         double dogHeight = getHeight() * 2;
         return dogHeight;
     }

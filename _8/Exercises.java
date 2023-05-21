@@ -23,9 +23,9 @@ public class Exercises {
         System.out.println("\nExercise 1: ");
 
         Dog dog = new Dog(28.5, 9.8, "Beagle");
-        System.out.println(dog.getBreed());
-        System.out.println(dog.getHeight());
-        System.out.println(dog.getWeight());
+        System.out.println("Dog's breed: " + dog.getBreed());
+        System.out.println("Dog's height: " + dog.getHeight());
+        System.out.println("Dog's weight: " + dog.getWeight());
     }
 
     /**
@@ -43,16 +43,16 @@ public class Exercises {
         System.out.println("\nExercise 2: ");
 
         Fish fish = new Fish(12.6, 45, "Carpa Koi");
-        System.out.println(fish.getSpecies());
-        System.out.println(fish.getHeight());
-        System.out.println(fish.getWeight());
+        System.out.println("Fish's species: " + fish.getSpecies());
+        System.out.println("Fish's height: " + fish.getHeight());
+        System.out.println("Fish's weight: " + fish.getWeight());
 
         System.out.println();
 
         Bird bird = new Bird(1.71, 70, 1.20);
-        System.out.println(bird.getWingSpan());
-        System.out.println(bird.getHeight());
-        System.out.println(bird.getWeight());
+        System.out.println("Bird's wingspan: " + bird.getWingSpan());
+        System.out.println("Bird's height: " + bird.getHeight());
+        System.out.println("Bird's weight: " + bird.getWeight());
     }
 
 
