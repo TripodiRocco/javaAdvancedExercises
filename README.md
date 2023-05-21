@@ -18,8 +18,8 @@ _ = TO DO
 **X**   Esercizio 5     *(Handling Exceptions)*
 **X**   Esercizio 6     *(Enums)*
 **X**   Esercizio 7     *(Junit)*
-**^**   Esercizio 8     *(Inheritance)*
-**^**   Esercizio 9     *(Abstract classes, interfaces)*
+**X**   Esercizio 8     *(Inheritance)*
+**X**   Esercizio 9     *(Abstract classes, interfaces)*
 **X**   Esercizio 10    *(Object.class, Method overriding, equals, toString)*
 **X**   Esercizio 11    *(Records, ternary operator, BigInteger)*
 **X**   Esercizio 12    *(Java Streams)*
