@@ -68,16 +68,12 @@ public class Exercises {
         // and store the counts in the Map `wordCount`, note you will need to first get the previous value
         // from the Map and then increment it by 1, if no previous value exists, use 0 as the previous value.
 
-        // Your code here
-
-        int counter = 0;
-
-        for (int i = 0; i < words.size(); i++) {
-            wordCount.put("", counter + 1);
-            counter++;
+        for (String word : words) {
+            int count = wordCount.getOrDefault(word, 0);
+            wordCount.put(word, count + 1);
         }
 
-        System.out.println(wordCount.values());
+        System.out.println(wordCount);
     }
 
     /**
