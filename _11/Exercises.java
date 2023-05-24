@@ -25,18 +25,10 @@ public class Exercises {
         private static void exercise1() {
             System.out.println("\nExercise 1: ");
 
-            Random random = new Random();
-
-            int x = random.nextInt(100);
-
-            int ternaryOperator = x >= 50 ? x : x;
+            double x = Math.random() * 100;
+            String ternaryOperator = x >= 50 ? "x is greater than or equal to 50" : "x is less than 50";
             System.out.println(ternaryOperator);
 
-            boolean comparison1 = x >= 50;
-            System.out.println("x is greater than or equal to 50 = " + comparison1);
-
-            boolean comparison2 = x <= 50;
-            System.out.println("x is less than 50 = " + comparison2);
         }
 
         /**
