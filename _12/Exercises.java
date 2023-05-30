@@ -1,6 +1,7 @@
 package javaadvanced._12;
 
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -45,7 +46,8 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
 
-        System.out.println(ourNumbers.stream().filter(filtraDispari -> filtraDispari % 2 != 0).collect(Collectors.toSet()));
+        Set<Integer> oddNumbers = ourNumbers.stream().filter(filtraDispari -> filtraDispari % 2 != 0).collect(Collectors.toSet());
+        System.out.println(oddNumbers);
     }
 
     /**
@@ -64,7 +66,8 @@ public class Exercises {
         System.out.println("\nExercise 3: ");
         List<String> alice = List.of("Alice", "Bob", "Charlie");
 
-        System.out.println(alice.stream().map(String::toUpperCase).collect(Collectors.toSet()));
+        Set<String> uppercaseStrings = alice.stream().map(String::toUpperCase).collect(Collectors.toSet());
+        System.out.println(uppercaseStrings);
     }
 
     /**
@@ -82,6 +85,7 @@ public class Exercises {
     private static void exercise4() {
         System.out.println("\nExercise 4");
         
-        System.out.println(ourNumbers.stream().filter(filtraAncoraPari -> filtraAncoraPari % 2 == 0).map(pari -> pari * 2).collect(Collectors.toSet()));
+        Set<Integer> evenNumbersTimesByTwo = ourNumbers.stream().filter(filtraAncoraPari -> filtraAncoraPari % 2 == 0).map(pari -> pari * 2).collect(Collectors.toSet());
+        System.out.println(evenNumbersTimesByTwo);
     }
 }
