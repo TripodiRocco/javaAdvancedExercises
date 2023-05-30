@@ -4,6 +4,8 @@ package javaadvanced._7;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static java.lang.Double.isInfinite;
+
 class CalculatorTest {
     /**
      * 1:
@@ -87,18 +89,31 @@ class CalculatorTest {
 
         Calculator calculator = new Calculator();
 
-        System.out.println(calculator.power(2, 4));
+        Assertions.assertTrue((calculator.power(2, 4) == 16));
+        System.out.println(calculator.power(2,4));
+
+        Assertions.assertTrue((calculator.power(0, 2) == 1));
         System.out.println(calculator.power(0, 2));
-        System.out.println(calculator.power(5.3, 8));
+
+        Assertions.assertFalse((calculator.power(5.3, 2) == 28.09));
+        System.out.println(calculator.power(5.3, 2));
+
+        Assertions.assertTrue((calculator.power(-12.6, 3) == 9.733570762733526E-7));
         System.out.println(calculator.power(-12.6, 3));
 
         System.out.println();
 
+        Assertions.assertFalse((calculator.power(-12.6, 0) == 10));
         System.out.println(calculator.power(-12.6, 0));
-        System.out.println(calculator.power(5, 1));
-        System.out.println(calculator.power(2, -7));
-        System.out.println(calculator.power(21.84, 5));
 
+        Assertions.assertFalse(calculator.power(4, -2) == 0.0625);
+        System.out.println(calculator.power(4, -2));
+
+        Assertions.assertFalse(calculator.power(4.50, 2) == 20.25);
+        System.out.println(calculator.power(4.50, 2));
+
+        Assertions.assertFalse(calculator.power(4, 2.50) == 32);
+        System.out.println(calculator.power(4, 2.50));
 
     }
 }
